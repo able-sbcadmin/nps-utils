@@ -1,5 +1,5 @@
 {
-  "name": "@gowravshekar/nps-utils",
+  "name": "@annoto/nps-utils",
   "version": "2.0.0",
   "description": "Utilities for nps (npm-package-scripts)",
   "main": "lib/index.js",
@@ -56,12 +56,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gowravshekar/nps-utils.git"
+    "url": "git+https://github.com/genadis/nps-utils.git"
   },
   "bugs": {
-    "url": "https://github.com/gowravshekar/nps-utils/issues"
+    "url": "https://github.com/genadis/nps-utils/issues"
   },
-  "homepage": "https://github.com/gowravshekar/nps-utils#readme",
+  "homepage": "https://github.com/genadis/nps-utils#readme",
   "directories": {
     "lib": "lib",
     "test": "tests"

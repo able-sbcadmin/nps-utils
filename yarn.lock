@@ -15,6 +15,33 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@annoto/nps-utils@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "@annoto/nps-utils@workspace:."
+  dependencies:
+    "@markforged/nps": 5.11.2
+    "@types/jest": ^28.1.6
+    "@types/node": ^18.7.2
+    "@typescript-eslint/eslint-plugin": ^5.33.0
+    "@typescript-eslint/parser": ^5.33.0
+    any-shell-escape: ^0.1.1
+    concurrently: ^7.3.0
+    cpy-cli: ^4.1.0
+    cross-env: ^7.0.3
+    eslint: ^8.21.0
+    eslint-config-prettier: ^8.5.0
+    eslint-plugin-import: ^2.26.0
+    eslint-plugin-prettier: ^4.2.1
+    is-docker: ^2.2.1
+    jest: ^28.1.3
+    mkdirp: ^1.0.4
+    prettier: ^2.7.1
+    rimraf: ^3.0.2
+    ts-jest: ^28.0.7
+    typescript: ^4.7.4
+  languageName: unknown
+  linkType: soft
+
 "@babel/code-frame@npm:^7.0.0, @babel/code-frame@npm:^7.12.13, @babel/code-frame@npm:^7.18.6":
   version: 7.18.6
   resolution: "@babel/code-frame@npm:7.18.6"
@@ -420,33 +447,6 @@ __metadata:
   checksum: 4059f790e2d07bf3c3ff3e0fec0daa8144fe35c1f6e0111c9921bd32106adaa97a4ab096ad7dab1e28ee6a9060083c4d1a4ada42a7f5f3f7a96b8812e2b757c1
   languageName: node
   linkType: hard
-
-"@gowravshekar/nps-utils@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "@gowravshekar/nps-utils@workspace:."
-  dependencies:
-    "@markforged/nps": 5.11.2
-    "@types/jest": ^28.1.6
-    "@types/node": ^18.7.2
-    "@typescript-eslint/eslint-plugin": ^5.33.0
-    "@typescript-eslint/parser": ^5.33.0
-    any-shell-escape: ^0.1.1
-    concurrently: ^7.3.0
-    cpy-cli: ^4.1.0
-    cross-env: ^7.0.3
-    eslint: ^8.21.0
-    eslint-config-prettier: ^8.5.0
-    eslint-plugin-import: ^2.26.0
-    eslint-plugin-prettier: ^4.2.1
-    is-docker: ^2.2.1
-    jest: ^28.1.3
-    mkdirp: ^1.0.4
-    prettier: ^2.7.1
-    rimraf: ^3.0.2
-    ts-jest: ^28.0.7
-    typescript: ^4.7.4
-  languageName: unknown
-  linkType: soft
 
 "@humanwhocodes/config-array@npm:^0.10.4":
   version: 0.10.4
@@ -2555,7 +2555,7 @@ __metadata:
 
 "fsevents@patch:fsevents@^2.3.2#~builtin<compat/fsevents>":
   version: 2.3.2
-  resolution: "fsevents@patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=18f3a7"
+  resolution: "fsevents@patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=df0bf1"
   dependencies:
     node-gyp: latest
   conditions: os=darwin
@@ -4769,7 +4769,7 @@ __metadata:
 
 "resolve@patch:resolve@^1.20.0#~builtin<compat/resolve>, resolve@patch:resolve@^1.22.0#~builtin<compat/resolve>":
   version: 1.22.1
-  resolution: "resolve@patch:resolve@npm%3A1.22.1#~builtin<compat/resolve>::version=1.22.1&hash=07638b"
+  resolution: "resolve@patch:resolve@npm%3A1.22.1#~builtin<compat/resolve>::version=1.22.1&hash=c3c19d"
   dependencies:
     is-core-module: ^2.9.0
     path-parse: ^1.0.7
@@ -5428,7 +5428,7 @@ __metadata:
 
 "typescript@patch:typescript@^4.7.4#~builtin<compat/typescript>":
   version: 4.7.4
-  resolution: "typescript@patch:typescript@npm%3A4.7.4#~builtin<compat/typescript>::version=4.7.4&hash=f456af"
+  resolution: "typescript@patch:typescript@npm%3A4.7.4#~builtin<compat/typescript>::version=4.7.4&hash=65a307"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
