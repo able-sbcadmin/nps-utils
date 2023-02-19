@@ -1,5 +1,5 @@
 {
-  "name": "@annoto/nps-utils",
+  "name": "@abledevs/nps-utils",
   "version": "2.0.0",
   "description": "Utilities for nps (npm-package-scripts)",
   "main": "lib/index.js",
@@ -30,7 +30,7 @@
   },
   "devDependencies": {
     "@markforged/nps": "5.11.2",
-    "@types/jest": "^28.1.6",
+    "@types/jest": "28.1.8",
     "@types/node": "^18.7.2",
     "@typescript-eslint/eslint-plugin": "^5.33.0",
     "@typescript-eslint/parser": "^5.33.0",
